@@ -50,9 +50,9 @@ class Simulation(object):
 
     Initialize the Simulation class.
 
-    :param str inpfile: Name of SWMM input file (default '')
-    :param str rptfile: Report file to generate (default None)
-    :param str binfile: Optional binary output file (default None)
+    :param str inputfile: Name of SWMM input file (default '')
+    :param str reportfile: Report file to generate (default None)
+    :param str outputfile: Optional binary output file (default None)
     :param SimulationPreConfig sim_preconfig: Optional Pre Config (default None)
 
     Examples:
